@@ -6,7 +6,7 @@ import (
 	"github.com/AmirmahdiShahbazi/golanglist/list"
 )
 
-var list = list.NewList[int]()
-list.Add(1).Add(2).Add(3)
-fmt.Println(list.Get())
+exampleList := list.NewList[int]()
+exampleList.Add(1).Add(2).Add(3)
+fmt.Println(exampleList.Get())
 ```
